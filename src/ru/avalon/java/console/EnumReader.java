@@ -33,7 +33,7 @@ public class EnumReader<E extends Enum<E>> implements Closeable {
      */
     public EnumReader(InputStream stream, Class<E> cls) {
         this.cls = cls;
-        in  = new BufferedReader(new InputStreamReader(stream));
+        in = new BufferedReader(new InputStreamReader(stream));
     }
     /**
      * Возвращает следующий экземпляр пересиления из потока.
